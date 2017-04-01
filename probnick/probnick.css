@@ -1,0 +1,55 @@
+.menu{
+    display: block;
+}
+
+.menu__item{
+    border: 1px solid black;
+    display: inline-flex; 
+    justify-content: center; 
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu__item:hover{
+    background-color: blueviolet;
+}
+
+.text{
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zaglav{
+    text-align: center;
+}
+
+.ss{
+    color: blueviolet;
+}
+
+.ss:hover{
+    color: green;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.var{
+    border: 1px solid black;
+    text-align:center;
+}
+
+.var:hover{
+    background-color: blueviolet;
+}
