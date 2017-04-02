@@ -74,5 +74,21 @@ function check(){
      if(eighteen.value == "БВГА"){
         yesotvet = yesotvet + 1;
     }
-    document.getElementById('yesotvet').div = yesotvet;
+    
+    if(yesotvet > 0 && yesotvet < 5){
+        yesotvet = 2;
+    }
+    if(yesotvet > 5 && yesotvet < 12){
+        yesotvet = 3;
+    }
+    if(yesotvet > 12 && yesotvet < 18){
+        yesotvet = 4;
+    }
+    if(yesotvet > 18 && yesotvet < 23){
+        yesotvet = 5;
+    }
+    
+    alert("Ваша оценка! " + yesotvet);
+    
 }
+    document.getElementById('otvet').innerHTML = yesotvet;
